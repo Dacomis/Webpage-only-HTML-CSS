@@ -53,7 +53,7 @@ body{
 .try-text {
     color:RGB(255,255,255);
     margin-left: 3%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title {
@@ -86,9 +86,163 @@ body{
     text-align: center;
 }
 
+.features {
+    margin-bottom: 4%;
+}
 
+.features-title p {
+    color: RGB(44,62,80);
+    font-size: 230%;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 6%;
+}
 
+.features-title p b {
+    font-weight: 500;
+}
 
+.features-logos {
+    display: flex;
+    justify-content: space-around;
+}
 
+.features-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: RGB(65,63,63);
+}
 
+.features-text p {
+    margin: 2% 3% 2% 3%;
+    line-height: 180%;
+}
 
+.features-button-find {
+    background-color: RGB(243,156,18);
+    border-radius: 7px;
+    color: RGB(255,255,255);
+    box-shadow: 0px 10px RGB(230,126,34);
+    font-size: 170%;
+    width: 15%;
+    padding: 0.5% 1% 0.5% 1%;
+    font-weight: 300;
+    text-align: center;
+    margin: 2% 0% 2% 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.solution {
+    background-color: RGB(52,73,94);
+    margin: 0% -15% 0% -15%; 
+    display: flex;
+}
+
+.solution-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: RGB(255,255,255);
+    text-align: right;
+    width: 30%;
+    margin: 2% 8% 3% 10%;
+
+}
+
+.solution-text h4 {
+    font-size: 240%;
+    font-weight: 100;
+}
+
+.solution-text h4 b {
+    font-weight: 400;
+}
+
+.solution-text p {
+    font-size: 140%;
+    font-weight: 200;
+}
+
+.solution-pic {
+    margin-top: 2%
+}
+
+.integration {
+    background-color: RGB(248,248,248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+    margin: 0% -15% 0% -15%; 
+    padding-bottom: 3%;
+}
+
+.integration-email {
+    color: RGB(44,62,80);
+    display: flex;
+    justify-content: center;
+    font-size: 240%;
+    font-weight: 100;
+}
+
+.integration-email b {
+    font-weight: 400;
+}
+
+.integration-pics {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.integration-text {
+    display: flex;
+    justify-content: center;
+    color: RGB(95,114,110);
+    font-size: 150%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.integration-button {
+    background-color: RGB(243,156,18);
+    border-radius: 7px;
+    color: RGB(255,255,255);
+    box-shadow: 0px 10px RGB(230,126,34);
+    font-size: 170%;
+    width: 25%;
+    padding: 0.5% 1% 0.5% 1%;
+    font-weight: 300;
+    text-align: center;
+    margin: 2% 0% 2% 37%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reviews-text {
+    color: RGB(44,62,80);
+    display: flex;
+    justify-content: center;
+    font-size: 240%;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reviews-text b {
+    font-weight: 400;
+}
+
+.reviews-pics {
+    border-radius: 50%;
+}
+
+.reviews-pics img {
+    border-radius: 50%;
+    border: 5px solid RGB(27,121,145);
+}
